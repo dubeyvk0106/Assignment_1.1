@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Second_Highest {
 
-    static void print2largest(int arr[],
+    static void secondLargest(int arr[],
                               int size)
     {
         int i, first, second;
@@ -22,7 +22,7 @@ public class Second_Highest {
 
         int arr[] = {10, 45, 17, 15, 74, 13};
         int n = arr.length;
-        print2largest(arr, n);
+        secondLargest(arr, n);
     }
 
 }
