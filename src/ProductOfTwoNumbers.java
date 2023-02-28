@@ -5,12 +5,12 @@ public class ProductOfTwoNumbers {
         {
             Scanner input = new Scanner (System.in);
             System.out.print("Input the first number: ");
-            int a = input.nextInt();
+            double t = input.nextDouble();
             System.out.print("Input the second number: ");
-            int b = input.nextInt();
-            int c = (a*b);
+            double u = input.nextDouble();
+            double v = (t*u);
             System.out.println();
-            System.out.println("The multiplication of two numbers is:" +c);
+            System.out.println("The multiplication of two numbers is:" +v);
         }
     }
 }
