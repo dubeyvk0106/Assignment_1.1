@@ -1,7 +1,7 @@
 public class HelloAndName {
 
     public static void main(String[] args){
-        System.out.println("Hello!");
-        System.out.println("Vivek Dubey");
+        System.out.print("Hello! ");
+        System.out.print("Vivek Dubey.");
     }
 }
