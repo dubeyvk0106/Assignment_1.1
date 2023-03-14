@@ -1,3 +1,5 @@
+package week4;
+
 import java.util.*;
 
 //Write a Java program to validate a personal identification number (PIN). Assume the length of a PIN number is 3, 5 or 7.
