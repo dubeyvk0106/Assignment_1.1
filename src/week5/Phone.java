@@ -1,3 +1,4 @@
+package week5;
 
 public class Phone {
 
@@ -31,11 +32,11 @@ interface MusicPlayer{
     }
 
     public void play(){
-        System.out.println("MusicPlayer is on...");
+        System.out.println("week5.MusicPlayer is on...");
     }
 
     public void stop(){
-        System.out.println("Stoping the MusicPlayer...");
+        System.out.println("Stoping the week5.MusicPlayer...");
     }
 
     public static void main(String args[]){
