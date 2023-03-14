@@ -1,3 +1,5 @@
+package week5;
+
 import java.lang.*;
 
 abstract class Shape {

@@ -1,3 +1,5 @@
+package week5;
+
 public class Account {
 
     long accountNo;
@@ -58,7 +60,7 @@ public class Account {
     // default constructor
     Account(){}
 
-    // Parameterized Constructor for the Account Class
+    // Parameterized Constructor for the week5.Account Class
     Account(long accountNo, String name,String address, String phoneNo, String dOB, long balance){
 
         this.accountNo =accountNo;
@@ -71,7 +73,7 @@ public class Account {
     }
 
     public void closeAccount(){
-        System.out.println("Account has been closed...");
+        System.out.println("week5.Account has been closed...");
     }
 }
 
@@ -91,7 +93,7 @@ public class Account {
      }
 
      public void fixedDeposit(){
-         System.out.println("Money deposited in Fixed Deposit Account...");
+         System.out.println("Money deposited in Fixed Deposit week5.Account...");
      }
 
 }
@@ -120,7 +122,7 @@ class Test{
 
     public static void main(String args[]){
 
-        //Account sa1 = new Account(543210,"Vivek","9/22-ABCD - New Delhi","9519747029","01/06/2000",50000);
+        //week5.Account sa1 = new week5.Account(543210,"Vivek","9/22-ABCD - New Delhi","9519747029","01/06/2000",50000);
         SavingsAccount sa1 = new SavingsAccount();
         System.out.println(sa1.name);
         System.out.println(sa1.address);
