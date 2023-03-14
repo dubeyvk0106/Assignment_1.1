@@ -1,3 +1,4 @@
+
 import java.util.*;
 
 public class Student {
@@ -85,7 +86,7 @@ public class Student {
     }
 }
 
- class StudentTest{
+class StudentTest{
 
     public static void main (String args[]){
 
@@ -145,12 +146,7 @@ public class Student {
         System.out.println("Grade of "+s5.getName()+" is "+s5.calculateGrade(s5.marks1, s5.marks2, s5.marks3));
 
 
-
-
-
-
-
-
     }
 
 }
+
