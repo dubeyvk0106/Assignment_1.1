@@ -1,6 +1,7 @@
 package week6;
 import java.io.*;
-import java.util.Scanner;
+import java.util.*;
+
 
 class addition{
     public static void print(int a,int b)
