@@ -20,9 +20,9 @@ public class generics {
 
 
         GenericClass<Integer> integerObj = new GenericClass<>(100);
-        System.out.println("Generic Class returns: " + integerObj.getValue());
+        System.out.println("Generic Class on this occasion returns: " + integerObj.getValue());
 
         GenericClass<String> stringObj = new GenericClass<>("Java Generics Practice");
-        System.out.println("Generic Class returns: " + stringObj.getValue());
+        System.out.println("Generic Class on this occasion returns: " + stringObj.getValue());
     }
 }
