@@ -7,7 +7,7 @@ public class IOException {
     public static void main(String[] args)
     {
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner("Hi Vivek !!");
 
 
         System.out.println("" + scanner.nextLine());
