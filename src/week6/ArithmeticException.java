@@ -13,7 +13,7 @@ public class ArithmeticException {
             c = a/b;
             System.out.println(c);
         }
-        catch(Throwable e)
+        catch(Exception e)
         {
             System.out.println( "The exception occurred is as follows " + e.getMessage() );
         }
