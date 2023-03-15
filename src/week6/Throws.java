@@ -17,8 +17,8 @@ public class Throws {
         catch(IllegalAccessException e)
         {
             System.out.println("It's been Caught in main function .");
-            System.out.println("Successful catch operation");
-            System.out.println("Thanks !!");
+            System.out.println("Successful catch operation. Thanks !!");
+
         }
     }
 }
