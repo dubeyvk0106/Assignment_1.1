@@ -2,7 +2,7 @@ package week6;
 
 import java.util.Scanner;
 
-public class IOException {
+public class IOException_Test extends Exception {
 
     public static void main(String[] args)
     {

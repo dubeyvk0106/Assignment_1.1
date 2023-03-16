@@ -1,7 +1,6 @@
 package week6;
-import java.io.*;
 
-public class ArithmeticException {
+public class ArithmeticException_Test extends Exception {
 
     public static void main(String args[])
     {
@@ -13,7 +12,7 @@ public class ArithmeticException {
             c = a/b;
             System.out.println(c);
         }
-        catch(Exception e)
+        catch(ArithmeticException e)
         {
             System.out.println( "The exception occurred is as follows " + e.getMessage() );
         }

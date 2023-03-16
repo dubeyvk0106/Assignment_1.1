@@ -10,7 +10,7 @@ class addition{
     }
 }
 
-public class IllegalStateException {
+public class IllegalStateException_Test extends Exception {
 
 
     public static void main(String[] args) throws Exception {

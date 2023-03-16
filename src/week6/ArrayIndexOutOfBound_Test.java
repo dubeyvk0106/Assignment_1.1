@@ -2,7 +2,7 @@ package week6;
 
 import java.io.*;
 
-public class ArrayIndexOutOfBound {
+public class ArrayIndexOutOfBound_Test extends Exception{
 
     public static void main(String args[]) {
         try {
