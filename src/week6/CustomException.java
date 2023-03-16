@@ -14,7 +14,7 @@ public class CustomException extends Exception {
     CustomException() {    }
 
 
-    CustomException(String str) { super(str); }
+    CustomException(String string) { super(string); }
 
 
     public static void main(String[] args) throws CustomException
