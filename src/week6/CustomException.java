@@ -1,4 +1,49 @@
 package week6;
 
-public class CustomException {
+public class CustomException extends Exception {
+
+    private static int account_no[] = {0000, 0001, 0002};
+
+    private static String name[] =
+            {"Vivek", "Rajan", "Rahul"};
+
+    private static double balance[] =
+            {128070.00, 1800.00, 17000.95};
+
+
+    CustomException() {    }
+
+
+    CustomException(String str) { super(str); }
+
+
+    public static void main(String[] args) throws CustomException
+    {
+        try  {
+
+            System.out.println("ACCOUNT-NO" + "\t" + "CUSTOMER" +
+                    "\t" + "BALANCE");
+
+
+            for (int j = 0; j < 3 ; j++)
+            {
+                System.out.println(account_no[j] + "\t" + name[j] +
+                        "\t" + balance[j]);
+
+
+                if (balance[j] < 2000)
+                {
+                    CustomException me =
+                            new CustomException("Balance is less than 2000");
+                    throw me;
+                }
+            }
+        }
+
+        catch (CustomException e) {
+            e.printStackTrace();
+        }
+    }
+
+
 }
