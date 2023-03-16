@@ -33,9 +33,9 @@ public class CustomException extends Exception {
 
                 if (balance[j] < 2000)
                 {
-                    CustomException me =
-                            new CustomException("Balance is less than 2000");
-                    throw me;
+                    CustomException message =
+                            new CustomException("Balance is less than 2000 which is not allowed.");
+                    throw message;
                 }
             }
         }
