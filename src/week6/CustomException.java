@@ -27,15 +27,14 @@ public class CustomException extends Exception {
 
             for (int j = 0; j < 3 ; j++)
             {
-                System.out.println(account_no[j] + "\t" + name[j] +
-                        "\t" + balance[j]);
+                System.out.println(account_no[j] + "\t" + "\t" + "\t" + name[j] +
+                        "\t" +"\t" + balance[j]);
 
 
                 if (balance[j] < 2000)
                 {
-                    CustomException message =
-                            new CustomException("Balance is less than 2000 which is not allowed.");
-                    throw message;
+
+                    throw new CustomException("Balance is less than 2000 which is not allowed.");
                 }
             }
         }
