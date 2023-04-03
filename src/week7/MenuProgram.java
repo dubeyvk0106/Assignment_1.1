@@ -23,13 +23,13 @@ public class MenuProgram {
                     System.out.print("Enter the number of elements to add: ");
                     int k = scanner.nextInt();
                     for (int j = 0; j < k; j++) {
-                        System.out.print("Enter element " + (j+1) + ": ");
+                        System.out.print("Enter choice " + (j+1) + ": ");
                         String eoc = scanner.next();
                         list.add(eoc);
                     }
                     break;
                 case 2:
-                    System.out.print("Enter element to remove: ");
+                    System.out.print("Enter your choice to remove: ");
                     String eoc = scanner.next();
                     if (list.remove(String.valueOf(eoc))) {
                         System.out.println("Successfully removed.");
