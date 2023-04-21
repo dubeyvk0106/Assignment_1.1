@@ -2,10 +2,11 @@ package week9;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.jupiter.api.BeforeEach;
+
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.RepeatedTest;
 
 public class CalculatorTest {
 
@@ -17,16 +18,16 @@ public class CalculatorTest {
     }
 
     @Test
-    @DisplayName("Simple multiplication should work")
+    @DisplayName("Simple multiplication ")
     void testMultiply() {
-        assertEquals(20, calculator.multiply(4, 5),
-                "Regular multiplication should work");
+        assertEquals(40, calculator.multiply(8, 5),
+                "Regular multiplication");
     }
 
     @RepeatedTest(5)
     @DisplayName("Ensure correct handling of zero")
     void testMultiplyWithZero() {
-        assertEquals(0, calculator.multiply(0, 5), "Multiple with zero should be zero");
-        assertEquals(0, calculator.multiply(5, 0), "Multiple with zero should be zero");
+        assertEquals(0, calculator.multiply(0, 6), "Multiples with zero is always zero");
+        assertEquals(0, calculator.multiply(10, 0), "Multiples with zero is always zero");
     }
 }
