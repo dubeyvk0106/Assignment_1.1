@@ -11,20 +11,15 @@ function validateForm() {
       return false;
     }
 
-    if (email === "") {
-      alert("Email can not be empty.");
-      return false;
-    }
-
     if (password === "") {
       alert("Password can not be empty.");
       return false;
     }
 
-    if (confirmPassword === "") {
-      alert("Confirm password can not be empty.");
-      return false;
-    }
+    if (email === "") {
+          alert("Email can not be empty.");
+          return false;
+        }
 
     if (password !== confirmPassword) {
       alert("Passwords does not match");
@@ -40,4 +35,9 @@ function validateForm() {
       alert("Gender can not be empty.");
       return false;
     }
+
+    if (confirmPassword === "") {
+          alert("Confirm password can not be empty.");
+          return false;
+        }
   }
